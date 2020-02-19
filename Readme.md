@@ -8,11 +8,11 @@ This project is an implementation of the A* algorithm for a path finding applica
 A robot needs to move from a starting position with a certain orientation to a goal position with a certain orientation, while avoiding the obstacles.
 The robot cannot do a 90° turn while staying at the same position. The robot can only move in 6 possible directions, according to the following movement model:
 
-![](movement_model.png)
+![](images/movement_model.png)
 
 ## Some results
 
-![](test1.png) | ![](test2.png)
+![](images/test1.png) | ![](images/test2.png)
 
 
 ## Usage
