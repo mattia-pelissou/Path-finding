@@ -1,7 +1,7 @@
 
-# Path Finding with A* algorithm
+# Path Finding with A* and BFS (Breadth-first search) algorithm
 
-This project is an implementation of the A* algorithm for a path finding application, in a 2 dimensional grid but taking into account the orientation of the robot.
+This project is an implementation of the A* and BFS algorithm for a path finding application, in a 2 dimensional grid but taking into account the orientation of the robot.
 
 ## Context
 
@@ -17,6 +17,8 @@ The robot cannot do a 90° turn while staying at the same position. The robot ca
 
 ## Usage
 
+For A* algorithm:
+
 ```python
 cd path_finding/
 python main_path_finder.py
@@ -24,6 +26,14 @@ python main_path_finder.py
 
 The ```main_path_finder.py``` script is where you can modify the tests launched.
 
+For BFS algorithm:
+
+```python
+cd path_finding/
+python main_path_finder_BFS.py
+```
+
+The ```main_path_finder_BFS.py``` script is where you can modify the tests launched.
 
 ## References
 1. [A* search algorithm on Wikipedia](https://en.wikipedia.org/wiki/A*_search_algorithm#Pseudocode)
