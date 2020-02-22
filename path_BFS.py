@@ -61,7 +61,7 @@ class PathFinder_BFS():
                 node.parent = current_node
 
                 # Check is node not in obstacle
-                if (PathFinder.not_in_obstacle(node, grid) == True):
+                if (PathFinder_BFS.not_in_obstacle(node, grid) == True):
 
                     # Check that node is not already in the closed list
                     if node not in visited_nodes:
@@ -69,7 +69,7 @@ class PathFinder_BFS():
 
                         if node == goal_node:
                             # Goal found
-                            path = PathFinder.reconstruct_path(current_node,start_node,goal_node)
+                            path = PathFinder_BFS.reconstruct_path(node,start_node,goal_node)                            
                             return path
 
                         else:
